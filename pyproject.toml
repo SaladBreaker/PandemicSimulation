@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "PandemicSimulation"
+version = "0.1.0"
+description = ""
+authors = ["vlad.luca <vlad.luca@syneto.eu>"]
+license="MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Mesa = "^0.8.8"
+jupyter = "^1.0.0"
+matplotlib = "^3.4.2"
+black = "^21.5b1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
