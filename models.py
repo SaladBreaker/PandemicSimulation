@@ -7,10 +7,6 @@ from utils import *
 from config import CONFIG
 
 
-# Dummy probabilities just for the proof of concept, those do net reflect real life probabilities!
-# an infected agent will recover after 3 steps and will gain absolute immunity
-
-
 class PandemicModel(Model):
     """A model with some number of agents."""
 
