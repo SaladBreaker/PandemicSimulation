@@ -54,3 +54,6 @@ The simulation follows some simple rules:
 4. A recovered agent can never be infected again
 
 5. An infected agent recovers after a number of days
+
+# How it looks
+![image](https://user-images.githubusercontent.com/46823785/119233376-69567f00-bb31-11eb-95d5-1456c0901bae.png)
