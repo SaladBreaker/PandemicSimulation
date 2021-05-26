@@ -8,7 +8,6 @@ from config import CONFIG
 
 
 class PandemicModel(Model):
-    """A model with some number of agents."""
 
     def __init__(
         self, number_of_agents: int, initial_infected: float, width: int, height: int
@@ -67,7 +66,6 @@ class PandemicModel(Model):
 
 
 class PersonAgent(Agent):
-    """An agent with fixed initial wealth."""
 
     def __init__(self, unique_id: str, model: Model, age: int, is_infected: bool):
         super().__init__(unique_id, model)
